@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showroom Page</title>
+
+    <link rel="shortcut icon" href="../Images/Stuff/web-logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../header-footer.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- local plugin -->
+
+    <link rel="stylesheet" href="../plugin/fontawesome-free-5.15.1-web/css/all.min.css">
+
+</head>
+<body>
+    
+    <!-- Header Start -->
+
+    <header>
+
+        <a href="#" class="logo">
+            <img src="../Images/Stuff/logo-horizontal.png" alt="">
+        </a>
+
+        <div class="menuToggle" onclick="menu()"></div>
+
+        <ul class="navigation">
+
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../About/about.html">About</a></li>
+            <li><a href="../Cars/cars.html">Cars</a></li>
+            <li><a href="#">Showroom</a></li>
+            <li><a href="../Account/account.html">Account</a></li>
+
+        </ul>
+
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Home Start -->
+
+    <section id="home">
+
+        <div class="content">
+            <h2 id="home-title">
+                <span>O</span>ur <span>S</span>howroom
+            </h2>
+            <h3>
+                “Low Price, High Quality”
+            </h3>
+            <!-- <br/> -->
+            <p>
+                Check out our amazing car's showroom
+            </p>
+            <br/>
+            <a href="#community" title="Enjoy Explore!" class="btn" id="welcome">Explore!</a>
+       </div>
+    
+    </section>
+
+    <!-- Home End -->
+
+    <section id="community">
+
+        <div class="row">
+
+            <div class="col50" id="customer1">
+                <div class="imgBx">
+                    <img id="slider" src="../Images/Cars/17.png" alt="Main Image"/>
+                </div>
+                <div class="imgRow">
+                    <img class="slider-thumb" src="../Images/Cars/17.png" alt="Thumbnail 1" onclick="showImage(0)"/>
+                    <img class="slider-thumb" src="../Images/Cars/16.png" alt="Thumbnail 2" onclick="showImage(1)"/>
+                    <img class="slider-thumb" src="../Images/Cars/15.png" alt="Thumbnail 3" onclick="showImage(2)"/>
+                </div>
+                <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+
+            <div class="col50">
+
+                <h2 class="titleText" id="slider-title">Showroom at Tangerang</h2>
+                <p id="slider-text">
+                    Immerse yourself in the epitome of luxury and tranquility at our Tangerang showroom. Nestled in a peaceful area, our showroom offers a serene escape from the hustle and bustle of daily life. Here, you can take your time to explore our meticulously curated collection of luxury cars, each selected for its exceptional quality and performance. Whether you are looking for a sleek sports car or a sophisticated sedan, our knowledgeable staff is dedicated to understanding your unique preferences and helping you find the perfect vehicle that aligns with your lifestyle and desires. Experience car shopping like never before in a setting designed for your comfort and satisfaction.
+                </p>
+
+            </div>
+
+            <!-- Responsive -->
+
+            <div class="col50" id="customer2">
+                <div class="imgBx">
+                    <img id="slider2" src="../Images/Cars/showroom2.jpg" alt="Main Image"/>
+                </div>
+                <div class="imgRow">
+                    <img class="slider-thumb" src="../Images/Cars/showroom2.jpg" alt="Thumbnail 1" onclick="showImage(0)"/>
+                    <img class="slider-thumb" src="../Images/Cars/showroom5.jpg" alt="Thumbnail 2" onclick="showImage(1)"/>
+                    <img class="slider-thumb" src="../Images/Cars/showroom6.webp" alt="Thumbnail 3" onclick="showImage(2)"/>
+                </div>
+                <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Showroom Gallery -->
+
+    <section id="topTier">
+
+        <div class="title">
+            <h2 class="titleText">
+            <span>S</span>howroom <span>G</span>allery
+            </h2>
+            <p>
+                Checkout our amazing Showroom's Gallery
+            </p>
+        </div>
+
+        <div class="content">
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/gallery-1.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Customer bought Porsche</h3>
+                    1 June 2024
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/gallery-3.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Exhibition at Living Mall Alam Sutera</h3>
+                    1 January 2024
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/gallery-4.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Night's Moment at DCM</h3>
+                    31 December 2023
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/gallery-6.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Our New Branch</h3>
+                    7 February 2024
+                </div>
+            </div>
+        
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/gallery-2.webp" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Customer try Mercedes-Benz</h3>
+                    9 June 2024
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="viewall">
+            <a href="#topTier" class="btn">View Gallery</a>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        
+        <div class="footer_main">
+
+            <div class="tag">
+                <img src="../Images/Stuff/logo.png">
+                <p>
+                    Stay connected with DiamondCutMotors for exclusive offers, the lacommunity updates on luxury cars, insider news, and personalized services tailored to your needs.
+                </p>
+
+            </div>
+
+            <div class="tag">
+                <h1>Navigation</h1>
+                <ul>
+                    <a href="../index.html"><i class="fas fa-home"></i>Home</a>
+                    <a href="../About/about.html"><i class="far fa-address-card"></i>About</a>
+                    <a href="../Cars/cars.html"><i class="fas fa-book-open"></i>Cars</a>
+                    <a href="#"><i class="far fa-newspaper"></i>Showroom</a>
+                    <a href="../Account/account.html"><i class="far fa-user-circle"></i>Account</a>
+                </ul>
+            </div>
+
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="far fa-envelope"></i>dcm@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <a href="#" ><i class="fab fa-facebook-f social-icon"></i>&nbsp;&nbsp;Facebook</a>
+                    <a href="#" ><i class="fab fa-instagram social-icon"></i> Instagram</a>
+                    <a href="#" ><i class="fab fa-twitter social-icon"></i>Twitter</a>
+                    <a href="#" ><i class="fab fa-linkedin-in social-icon"></i> Linkedin</a>
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Subscribe</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="email@gmail.com">
+                    <button type="submit" id="subscribe">Subscribe</button>
+                </div>                
+            </div>    
+            
+        </div>
+
+        <p class="end">
+            <a href="../About/about.html">&copy; 2024 DiamondCutMotors</a>
+        </p>        
+
+    </footer>
+
+	<a href="#" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+	</a>
+
+    <script src="../header-footer.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
