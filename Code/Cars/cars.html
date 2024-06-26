@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Page</title>
+
+    <link rel="shortcut icon" href="../Images/Stuff/web-logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../header-footer.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- local plugin -->
+
+    <link rel="stylesheet" href="../plugin/fontawesome-free-5.15.1-web/css/all.min.css">
+
+</head>
+<body>
+    
+    <!-- Header Start -->
+
+    <header>
+
+        <a href="#" class="logo">
+            <img src="../Images/Stuff/logo-horizontal.png" alt="">
+        </a>
+
+        <div class="menuToggle" onclick="menu()"></div>
+
+        <ul class="navigation">
+
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../About/about.html">About</a></li>
+            <li><a href="#">Cars</a></li>
+            <li><a href="../Showroom/showroom.html">Showroom</a></li>
+            <li><a href="../Account/account.html">Account</a></li>
+
+        </ul>
+
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Home Start -->
+
+    <section id="home">
+
+        <div class="content">
+            <h2 id="home-title">
+                <span>O</span>ur <span>C</span>ars
+            </h2>
+            <h3>
+                “Low Price, High Quality”
+            </h3>
+            <!-- <br/> -->
+            <p>
+                See our collection of luxury cars for affordable price!
+            </p>
+            <br/>
+            <a href="#topTier" title="Enjoy Explore!" class="btn" id="welcome">Explore!</a>
+       </div>
+    
+    </section>
+
+    <!-- Home End -->
+
+    <!-- Showroom Gallery -->
+
+    <section id="topTier">
+
+        <div class="title">
+            <h2 class="titleText">
+            <span>C</span>ars <span>G</span>allery
+            </h2>
+            <p>
+                Checkout our amazing Car's Gallery
+            </p>
+        </div>
+
+        <div class="content">
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/allePorsche.png" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Alle Porsche</h3>
+                    Porsche Brand
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/bugattiChiron.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Bugatti Chiron (Blue)</h3>
+                    Bugatti Brand
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/bugattiChiron2.png" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Bugatti Chiron (Black)</h3>
+                    Bugatti Brand
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/bugattiGold.webp" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Bugatti Gold</h3>
+                    Bugatti Brand
+                </div>
+            </div>
+        
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/bugattiGrey.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Bugatti Grey</h3>
+                    Bugatti Brand
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/mercedesBenzC.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Mercedes-Benz-C</h3>
+                    Mercedes Brand
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/MercedesBenzC200.webp" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Mercedes-Benz-C-200</h3>
+                    Mercedes Brand
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="../Images/Cars/porsche911.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Porsche 911</h3>
+                    Porsche Brand
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="imgBx sold">
+                    <img src="../Images/Cars/porsche911GTS.webp" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Porsche 911 GTS</h3>
+                    Porsche Brand
+                </div>
+            </div>
+        
+            <div class="box">
+                <div class="imgBx sold">
+                    <img src="../Images/Cars/porsche911carrera.webp" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Porsche 911 Carrera</h3>
+                    Porsche Brand
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx sold">
+                    <img src="../Images/Cars/surMesure.png" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Bugatti Sur Mesure</h3>
+                    Bugatti Brand
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="viewall">
+            <a href="#topTier" class="btn">View Gallery</a>
+        </div>
+
+    </section>
+
+    <!-- Brand Name -->
+
+    <section id="community">
+
+        <div class="row">
+
+            <div class="col50" id="customer1">
+                <div class="imgBx">
+                    <img class="slider-thumb" id="slider" src="../Images/Brand/11.png" alt="Main Image"/>
+                </div>
+                <div class="imgRow">
+                    <img class="slider-thumb" src="../Images/Brand/11.png" alt="Thumbnail 1" onclick="showImage(0)"/>
+                    <img class="slider-thumb" src="../Images/Brand/12.png" alt="Thumbnail 2" onclick="showImage(1)"/>
+                    <img class="slider-thumb" src="../Images/Brand/13.png" alt="Thumbnail 3" onclick="showImage(2)"/>
+                </div>
+                <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+
+            <div class="col50">
+
+                <h2 class="titleText" id="slider-title">Bugatti Brand</h2>
+                <p id="slider-text">
+                    Bugatti, a name synonymous with luxury, performance, and exclusivity, has a storied legacy that dates back over a century. Founded in 1909 by the visionary Ettore Bugatti in Molsheim, France, the brand quickly became renowned for its high-performance automobiles and innovative engineering. Bugatti's legacy is built on a foundation of automotive masterpieces that blend art with technology, creating vehicles that are not only incredibly fast but also exquisitely designed.
+                    <br><br>
+                    Every Bugatti is a masterpiece of craftsmanship and exclusivity, with each car being meticulously hand-built by skilled artisans. The brand's commitment to perfection is evident in every detail, from the luxurious interiors to the advanced aerodynamics and engineering precision. Owning a Bugatti is not just about driving a car; it's about possessing a piece of automotive art that represents the pinnacle of human achievement in motoring.
+                </p>
+
+            </div>
+
+            <!-- Responsive -->
+
+            <div class="col50" id="customer2">
+                <div class="imgBx">
+                    <img class="slider-thumb" id="slider2" src="../Images/Brand/11.png" alt="Main Image"/>
+                </div>
+                <div class="imgRow">
+                    <img class="slider-thumb" src="../Images/Brand/11.png" alt="Thumbnail 1" onclick="showImage(0)"/>
+                    <img class="slider-thumb" src="../Images/Brand/12.png" alt="Thumbnail 2" onclick="showImage(1)"/>
+                    <img class="slider-thumb" src="../Images/Brand/13.png" alt="Thumbnail 3" onclick="showImage(2)"/>
+                </div>
+                <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        
+        <div class="footer_main">
+
+            <div class="tag">
+                <img src="../Images/Stuff/logo.png">
+                <p>
+                    Stay connected with DiamondCutMotors for exclusive offers, the lacommunity updates on luxury cars, insider news, and personalized services tailored to your needs.
+                </p>
+
+            </div>
+
+            <div class="tag">
+                <h1>Navigation</h1>
+                <ul>
+                    <a href="../index.html"><i class="fas fa-home"></i>Home</a>
+                    <a href="../About/about.html"><i class="far fa-address-card"></i>About</a>
+                    <a href="#"><i class="fas fa-book-open"></i>Cars</a>
+                    <a href="../Showroom/showroom.html"><i class="far fa-newspaper"></i>Showroom</a>
+                    <a href="../Account/account.html"><i class="far fa-user-circle"></i>Account</a>
+                </ul>
+            </div>
+
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="far fa-envelope"></i>dcm@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <a href="#" ><i class="fab fa-facebook-f social-icon"></i>&nbsp;&nbsp;Facebook</a>
+                    <a href="#" ><i class="fab fa-instagram social-icon"></i> Instagram</a>
+                    <a href="#" ><i class="fab fa-twitter social-icon"></i>Twitter</a>
+                    <a href="#" ><i class="fab fa-linkedin-in social-icon"></i> Linkedin</a>
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Subscribe</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="email@gmail.com">
+                    <button type="submit" id="subscribe">Subscribe</button>
+                </div>                
+            </div>    
+            
+        </div>
+
+        <p class="end">
+            <a href="../About/about.html">&copy; 2024 DiamondCutMotors</a>
+        </p>        
+
+    </footer>
+
+	<a href="#" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+	</a>
+
+    <script src="../header-footer.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
