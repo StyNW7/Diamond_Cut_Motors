@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCM</title>
+
+    <link rel="shortcut icon" href="Images/Stuff/web-logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- local plugin -->
+
+    <link rel="stylesheet" href="plugin/fontawesome-free-5.15.1-web/css/all.min.css">
+
+</head>
+<body>
+    
+    <!-- Header Start -->
+
+    <header>
+
+        <a href="#" class="logo">
+            <img src="Images/Stuff/logo-horizontal.png" alt="">
+        </a>
+
+        <div class="menuToggle" onclick="menu()"></div>
+
+        <ul class="navigation">
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="About/about.html">About</a></li>
+            <li><a href="Cars/cars.html">Cars</a></li>
+            <li><a href="Showroom/showroom.html">Showroom</a></li>
+            <li><a href="Account/account.html">Account</a></li>
+
+        </ul>
+
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Home Start -->
+
+    <section id="home">
+
+        <div class="content">
+            <h2 id="home-title">
+                <span>D</span>iamond <span>C</span>ut <span>M</span>otors
+            </h2>
+            <h3>
+                “Low Price, High Quality”
+            </h3>
+            <!-- <br/> -->
+            <p>
+                Join our community and never miss out on the best in automotive excellence.
+            </p>
+            <br/>
+            <a href="Account/account.html" title="Enjoy Explore!" class="btn" id="welcome">Get Started!</a>
+       </div>
+    
+    </section>
+
+    <!-- Home End -->
+
+    <!--About-->
+
+    <section id="about">
+
+        <div class="row">
+
+            <div class="col50">
+                <h2 class="titleText"><span>D</span>iamond <span>C</span>ut <span>M</span>otors</h2>
+                <p>
+                    DiamondCut Motors is a prestigious car reseller dedicated to providing luxurious vehicles across Indonesia. Since its founding in 1998, DiamondCut Motors has experienced exponential growth, becoming a trusted name in the luxury automotive market.
+                    <br><br>
+                    At DiamondCut Motors, we offer a wide array of renowned brands, including Porsche, Mercedes-Benz, Bugatti, and many others. Our commitment to excellence has attracted numerous business owners and successful individuals who value our cutting-edge service, timely delivery, and uncompromising focus on vehicle safety.
+                </p>
+
+                <br>
+
+                <p id="quote">"Low Price, High Quality"</p>
+
+                <div>
+                    <a href="About/about.html" class="btn">View Details</a>
+                </div>
+
+            </div>
+
+            <div class="col50">
+                <div class="imgBx">
+                    <img id="slider" src="Images/Cars/showroom1.webp" alt="My Photos"/>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </section>
+
+    <!-- Facility Section -->
+
+    <section id="facility">
+
+        <div class="services_box">
+
+            <div class="services_card">
+                <i class="fas fa-coins"></i>
+                <h3>Low Price</h3>
+                <p>
+                    We offer the best price
+                    <br>
+                    for high quality
+                </p>
+            </div>
+
+            <div class="services_card">
+                <i class="fas fa-crown"></i>
+                <h3>Customer is King</h3>
+                <p>
+                    We serve customer
+                    <br>
+                    as best as we can!
+                </p>
+            </div>
+
+            <div class="services_card">
+                <i class="fas fa-id-card"></i>
+                <h3>Certificate Available</h3>
+                <p>
+                    We provide original Certificate
+                    <br>
+                    for each car
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Featured Cars -->
+
+    <section id="featured">
+        
+        <div class="title">
+            <h2 class="titleText">
+            <span>F</span>eatured <span>C</span>ars
+            </h2>
+            <p>
+                These cars are for sale!
+            </p>
+        </div>
+
+        <br>
+
+        <div class="center">
+            <div class="container">
+                <div class="image">
+                    <img src="Images/Cars/bugatti.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="Images/Cars/bugatti.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="Images/Cars/bugatti2.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="Images/Cars/bugatti3.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="Images/Cars/Bugatti4.jpg" alt="">
+                </div>
+        
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+    
+            </div>    
+        </div>
+
+        <br>
+
+        <div class="viewall">
+            <a href="Cars/cars.html" class="btn">View Cars</a>
+        </div>
+
+    </section>
+
+    <!-- Top Tier Section -->
+
+    <section id="topTier">
+
+        <div class="title">
+            <h2 class="titleText">
+            <span>T</span>op <span>T</span>ier <span>C</span>ars
+            </h2>
+            <p>
+                These are the legendary cars
+            </p>
+        </div>
+
+        <div class="content">
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="Images/Cars/porsche911.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Porsche 911 Turbo</h3>
+                    $ 888,888
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="Images/Cars/porsche911GTS.webp" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Porsche 911 GTS</h3>
+                    $ 999,999
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="Images/Cars/smoke-car.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Smoke Car</h3>
+                    $ 1,000,000
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="imgBx">
+                    <img src="Images/Cars/mercedesBenzC.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>mercedes-Benz-C</h3>
+                    $ 777,777
+                </div>
+            </div>
+        
+            <div class="box">
+                <div class="imgBx">
+                    <img src="Images/Cars/smoker-car4.jpg" alt="#">
+                </div>
+                <div class="text">
+                    <h3>Legendary Car</h3>
+                    $ 1,111,111
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="viewall">
+            <a href="#topTier" class="btn">View Cars</a>
+        </div>
+
+    </section>
+
+    <!-- Be Our Community -->
+
+    <section id="community">
+
+        <div class="row">
+
+            <div class="col50" id="customer1">
+                <div class="imgBx">
+                    <img id="slider" src="Images/Stuff/customer.webp" alt="My Photos"/>
+                </div>
+            </div>
+
+            <div class="col50">
+                <h2 class="titleText"><span>B</span>e <span>O</span>ur <span>C</span>ommunity</h2>
+                <p>
+                    Become a part of the exclusive DiamondCutMotors community and elevate your automotive experience. By joining us, you gain access to a world of luxury and performance, featuring top-tier brands like Porsche, Mercedes-Benz, Bugatti, and more.
+                    <br><br>
+                    Don't miss out on the opportunity to be part of an elite group of car aficionados who value excellence, safety, and cutting-edge service. Join DiamondCutMotors today and drive your passion for luxury to new heights!
+                </p>
+
+                <br>
+
+                <p id="quote">"Low Price, High Quality"</p>
+
+                <div>
+                    <a href="Account/account.html" class="btn">Create Account</a>
+                </div>
+
+            </div>
+
+            <!-- Responsive -->
+
+            <div class="col50" id="customer2">
+                <div class="imgBx">
+                    <img id="slider" src="Images/Stuff/customer.webp" alt="My Photos"/>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        
+        <div class="footer_main">
+
+            <div class="tag">
+                <img src="Images/Stuff/logo.png">
+                <p>
+                    Stay connected with DiamondCutMotors for exclusive offers, the lacommunity updates on luxury cars, insider news, and personalized services tailored to your needs.
+                </p>
+
+            </div>
+
+            <div class="tag">
+                <h1>Navigation</h1>
+                <ul>
+                    <a href="#home"><i class="fas fa-home"></i>Home</a>
+                    <a href="About/about.html"><i class="far fa-address-card"></i>About</a>
+                    <a href="Cars/cars.html"><i class="fas fa-book-open"></i>Cars</a>
+                    <a href="Showroom/showroom.html"><i class="far fa-newspaper"></i>Showroom</a>
+                    <a href="Account/account.html"><i class="far fa-user-circle"></i>Account</a>
+                </ul>
+            </div>
+
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="fas fa-phone"></i>+62 123-4567-999</a>
+                <a href="#"><i class="far fa-envelope"></i>dcm@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <a href="#" ><i class="fab fa-facebook-f social-icon"></i>&nbsp;&nbsp;Facebook</a>
+                    <a href="#" ><i class="fab fa-instagram social-icon"></i> Instagram</a>
+                    <a href="#" ><i class="fab fa-twitter social-icon"></i>Twitter</a>
+                    <a href="#" ><i class="fab fa-linkedin-in social-icon"></i> Linkedin</a>
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Subscribe</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="email@gmail.com">
+                    <button type="submit" id="subscribe">Subscribe</button>
+                </div>                
+            </div>    
+            
+        </div>
+
+        <p class="end">
+            <a href="About/about.html">&copy; 2024 DiamondCutMotors</a>
+        </p>        
+
+    </footer>
+
+	<a href="#" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+	</a>
+
+    <script src="header-footer.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
